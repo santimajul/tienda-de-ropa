@@ -1,0 +1,468 @@
+html{
+    height: 100%;    
+}
+
+body{
+    height:100%;
+}
+
+/* imagen q despliqga barra lateral*/
+.rock{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 0 10px;
+    margin: 35px 0;
+}
+
+.rock:hover{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    padding: 0 7.5px;
+    margin: 32.5px 0;
+}
+
+/*barra navegadora*/
+.contenedor{
+    height: 100px;
+    width: 100%;
+  
+}
+
+.barra{
+    background-color: rgb(218, 214, 197,0.8); 
+    width: 100%;
+    display: flex;
+    flex: content;
+    justify-content: center;
+    position: fixed;
+}
+
+.barra h1{
+    display: inline;
+    float: left;
+    margin: 35px 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(0,0,0,0.8);
+}
+
+.barra h1:hover{
+    text-decoration: underline;
+}
+
+/*primer div*/
+.join{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+/*primer div izquierda*/
+.join-us{
+    height: 500px;
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+
+.join-us h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex: content;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.join-us h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex: content;
+    justify-content: center;
+    margin: 150px auto 0;
+}
+
+.boton{
+    height: 40px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 3px; 
+    top: 60%;
+    margin-left: 240px;
+    padding: 10px 70px;
+}
+
+.boton:hover{
+    background-color: rgb(128,128,128,0.9);
+    cursor: pointer;
+}
+
+/* primer div derecha*/
+.imagen-fachera{
+    height: 500px;
+    width: 50%;
+    float: right;
+    background-image: url("imagenes/banda.jpg");
+    background-size: 100% 500px;
+    transition: 1s;
+}
+
+.imagen-fachera:hover{
+    background-image: url("imagenes/banda1.jpg");
+    background-size: 100% 500px;
+}
+
+/*zapatos div*/
+
+.patos{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(218, 214, 197);
+}
+
+.patos-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+    display: flex;
+}
+
+.botas-container h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    color: rgb(85, 62, 62);
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.botas-container h2:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+.botas-container{
+    height: 350px;
+    width: 80%;
+    background-image: url("imagenes/botas2.jpg");
+    background-size: 100% 350px;
+    margin: auto;
+}
+
+.flecha{
+    font-size: 40px;
+    margin-top: 30%;
+    color: white;
+    cursor: pointer;
+}
+
+.fizq{
+    float: left;
+    margin-left: 10px;
+}
+
+.fder{
+    float: right;
+    margin-right: 10px;
+}
+
+.hinchapingo{
+    transform: translateY(-2em);
+}
+
+.patos-der{
+    height: 500px;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+
+.patos-der article{
+    margin-top: 100px;
+    width: 50%;
+    font-size: 16px;
+}
+
+/*barra lateral*/
+
+.cote{
+    height: 100%;
+    width: 200px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(218, 214, 197); 
+    text-align: center;
+    visibility: hidden;
+    position: fixed;
+}
+
+/*REMERAS*/
+
+.remeras{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.remes-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+.remes-der{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+
+.remeras-container{
+    height: 400px;
+    width: 60%;
+    background-image: url("imagenes/remera1.jpg");
+    background-size: 100% 400px;
+    margin: 50px auto;
+}
+
+.remeras-container h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    color: rgb(70, 66, 66);
+    margin-left: 10px;
+}
+
+.remeras-container h2:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+.remes-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+
+.remes-izq article{
+    margin-top: 150px;
+    width: 40%;
+    font-size: 16px;
+    color: white;
+}
+
+/*jeans*/
+
+.jeans{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(218, 214, 197);
+}
+
+.jeans-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+.jeans-container h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    color: rgb(73, 62, 62);
+    margin-left: 10px;
+}
+
+.jeans-container h2:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+.jeans-container{
+    height: 400px;
+    width: 60%;
+    background-image: url("imagenes/jean.webp");
+    background-size: cover;
+    margin: 50px auto;
+}
+
+.jeans-der{
+    height: 500px;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+
+.jeans-der article{
+    margin-top: 100px;
+    max-width: 50%;
+    max-height: 75%;
+    font-size: 16px;
+}
+
+/*CAMPERAS*/
+.camperas{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.campera-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+.campera-der{
+    height: 500px;
+    width: 50%;
+    float: right;
+}
+
+.camperas-container{
+    height: 400px;
+    width: 60%;
+    background-image: url("imagenes/campera.jpg");
+    background-size: 100% 400px;
+    margin: 50px auto;
+}
+
+.camperas-container h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 35px;
+    color: rgb(70, 66, 66);
+    margin-left: 10px;
+}
+
+.camperas-container h2:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+.campera-izq{
+    height: 500px;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex: content;
+    justify-content: center;
+}
+
+.campera-izq article{
+    margin-top: 100px;
+    width: 40%;
+    font-size: 16px;
+    color: white;
+}
+
+/*FORMULARIOOOO*/
+
+form{
+    height: 400px;
+    width: 90%;
+    max-width: 350px;    
+    border-radius: 20px;
+    background-color: rgb(128,128,128,0.9);
+    margin: 10% auto;   
+    padding: 30px 20px;
+    box-shadow: 5px 5px 10px 2px black;
+}
+
+form h1{
+    font-size: 35px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form h6{
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.conteiner{
+    margin-top: 40px;
+    display: grid;
+    gap: 3em;
+}
+
+.group{
+    position: relative;
+}
+
+.imputos{
+    height: 1.5em;
+    width: 90%;
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px black solid;
+}
+
+
+form label{
+    font-size: 18px;
+    position: absolute;
+    margin-left: 2.5%;
+    transform: translateY(-1.5em);
+    color: rgb(80, 78, 78,0.6);
+}
+
+#fsubmit{
+    height: 2em;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    padding: 5px auto;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    box-shadow: 2px 2px 5px;
+}
+
+#fsubmit:hover{
+    box-shadow: 3px 3px 5px 2px;
+}
+
+.modal{
+    position:fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+
+    --opacity: 0;
+    --pointer: none;
+
+    opacity: var(--opacity);
+    pointer-events: var(--pointer);
+    transition: opacity 0.5s;
+}
+
+.modal:target{
+    --opacity: 1;
+    --pointer: unset; 
+}
+
+@media (max-width: 600){
+    .jeans-der article{
+        overflow-x: scroll;
+    }
+}
+
+
+
